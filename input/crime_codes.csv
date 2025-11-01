@@ -1,0 +1,26 @@
+Code,Description
+110,Criminal Homicide
+113,Manslaughter
+122,Rape
+210,Robbery
+220,Burglary
+230,Assault
+236,Intimate Partner Assault
+330,Burglary from Vehicle
+420,Theft from Person
+440,Theft Plain - Petty
+442,Shoplifting - Petty
+443,Shoplifting - Grand Theft
+450,Theft from Vehicle
+451,Theft of Vehicle Parts
+459,Burglary Commercial
+470,Forgery
+480,Bike Theft
+487,Grand Theft
+488,Petty Theft
+510,Vehicle Theft
+520,Vandalism
+624,Battery
+647,Indecent Exposure
+653,Prowler
+664,Attempted Crime
