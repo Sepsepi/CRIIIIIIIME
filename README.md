@@ -55,12 +55,20 @@ pip install -r requirements.txt
 ```
 
 ### Setup API Key
-```bash
-# Get free API key from https://www.deepseek.com
-export DEEPSEEK_API_KEY="your-key-here"
+Get a free API key from [deepseek.com](https://www.deepseek.com), then:
 
-# Or edit config.py directly
+**Option 1: Environment Variable (Recommended)**
+```bash
+export DEEPSEEK_API_KEY="your-key-here"
 ```
+
+**Option 2: .env File (Secure)**
+```bash
+# Create .env file in project root
+echo "DEEPSEEK_API_KEY=your-key-here" > .env
+```
+
+**⚠️ SECURITY:** Never commit your API key to version control. The .env file is already in .gitignore.
 
 ### Run Extraction
 ```bash
